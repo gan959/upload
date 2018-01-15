@@ -11,7 +11,7 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import defaultRequest from './request';
 import getUid from './uid';
-import attrAccept from 'attr-accept';
+import attrAccept from './attr-accept';
 
 var AjaxUploader = function (_Component) {
   _inherits(AjaxUploader, _Component);
